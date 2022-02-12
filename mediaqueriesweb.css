@@ -1,0 +1,82 @@
+@media (min-width: 961px) {
+    html, body{
+        min-width: 961px; 
+        max-width: 1500px;  
+    }
+   .div1{
+      display: flex;
+      /* margin: 25px 10% 0px 10%; */
+      /* min-width: 1222px;
+      grid-template-columns:auto 70px auto ;
+      font-size: 60px;
+      grid-gap: 6px;
+      /* text-align: center; */
+      /* position: relative;
+      left: auto;
+      right: auto; */ 
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      /* width: 900px; */
+      font-size: 60px;
+      
+
+    
+   }
+   .div1-1{
+       display: flex;
+       width: 300px;
+       margin-right: 300px;
+      
+      
+   }
+   .div1-2{
+       display: flex;
+       text-align: right;
+       justify-content: center;
+       align-items: center;
+       /* width: 300px;
+       margin-left: 285px;
+       */
+   }
+   .div1-3{
+       display: flex;
+       font-size: 40px;
+       align-items: center;
+       /* align-items: center;
+       width: 300px; */
+       
+   }
+   .span1{
+       display: flex;
+       width: 300px;
+       margin-left: 300px;
+   }
+   
+   .div2main{
+    display: grid;
+    margin: 20px 10px 10px 3%;
+    /* min-width: 824px;  */
+    max-width: 1500px;  
+    grid-auto-flow: row;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    grid-gap:12px;
+}
+.div2{
+    display: grid;
+}
+.div2-1{
+     display: none;
+}
+.div2-2{
+    text-align: center;
+    border: 2px solid red;
+    display: grid;
+    padding: 65px;
+    font-size: 25px;
+    box-shadow: 7px 7px grey;
+
+}
+}

@@ -1,0 +1,47 @@
+html, body{
+    column-count: 1;
+    max-width: 486px;
+}
+.main{
+    margin: 10px 3px 0px 3px;
+}
+.div1{
+    font-size: 38px;
+    margin: 20px 10px 5px 5%;
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+
+.div1-3{
+    display: none;
+}
+
+.div1-2{
+    text-align: right;
+}
+.div2main{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    margin: 19px 20px 10px 2px;
+}
+.div2{
+    display: grid;
+    margin: 10px 3px 15px 3px;
+}
+.div2-1{
+    font-size: 30px;
+     border: 0.20px solid red;
+     box-shadow: 3px 3px grey;
+     padding: 15px;
+     color: grey;
+     border-radius: 10px;
+     max-width: 90%;
+     margin: auto 5% auto 5%;
+}
+.div2-2{
+    text-align: center;
+    width: 50%;
+    border: 2px solid red;
+    display: none;
+}
